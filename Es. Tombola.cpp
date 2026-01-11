@@ -59,7 +59,7 @@ int main() {
         while (inseriti < 5) {
             int col = rand() % 9;
             if (cartella2[i][col] == 0) {
-                // Logica semplificata con IF-ELSE e RAND diretto
+                
                 if (col == 0) {
                     cartella2[i][col] = rand() % 9 + 1;
                 } else if (col == 1) {
